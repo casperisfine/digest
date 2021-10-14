@@ -4,8 +4,8 @@
 
 require "mkmf"
 
-$INSTALLFILES = {
-  "digest.h" => "$(HDRDIR)"
-}
+# $INSTALLFILES = {
+#   "digest.h" => "$(HDRDIR)"
+# }
 
 create_makefile("digest")
